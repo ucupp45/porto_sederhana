@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | Yusup Kurniawan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <style>
+        body { padding-top: 70px; }
+        .hero-section { background-color: #f8f9fa; padding: 100px 0; }
+        .project-card { transition: transform 0.3s ease; }
+        .project-card:hover { transform: translateY(-5px); box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Yusup Kurniawan</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Tentang</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Proyek</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Halo, Saya Yusup Kurniawan</h1>
+            <p class="lead mt-3 text-muted">Mahasiswa Informatika Itenas | Web Development & AI Enthusiast</p>
+            <a href="#portfolio" class="btn btn-primary btn-lg mt-4">Lihat Karya Saya</a>
+        </div>
+    </section>
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Tentang Saya</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-4">
+                    <img src="https://via.placeholder.com/500x400" alt="Foto Profil" class="img-fluid rounded shadow">
+                    </div>
+                <div class="col-md-6">
+                    <p>Saya adalah mahasiswa Informatika semester 6 di Itenas yang memiliki ketertarikan mendalam pada eksplorasi teknologi dan pengembangan sistem.</p>
+                    <p>Minat utama saya mencakup berbagai bidang, mulai dari <strong>Computer Vision, Machine Learning, dan Data Mining</strong>, hingga pengembangan web modern menggunakan ekosistem <strong>JavaScript (Node.js & Next.js)</strong>.</p>
+                    <div class="mt-4">
+                        <h5>Keahlian Utama:</h5>
+                        <span class="badge bg-secondary me-2 mb-2">JavaScript</span>
+                        <span class="badge bg-secondary me-2 mb-2">Node.js</span>
+                        <span class="badge bg-secondary me-2 mb-2">Next.js</span>
+                        <span class="badge bg-secondary me-2 mb-2">Computer Vision</span>
+                        <span class="badge bg-secondary me-2 mb-2">Machine Learning</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Proyek Terbaru</h2>
+            <div class="row g-4">
+                
+                <div class="col-md-4">
+                    <div class="card h-100 project-card">
+                        <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Deteksi Kecepatan Kendaraan">
+                        <div class="card-body">
+                            <h5 class="card-title">Deteksi Kecepatan Kendaraan</h5>
+                            <p class="card-text">Proyek Computer Vision untuk mendeteksi dan mengkalkulasi kecepatan kendaraan secara langsung dari video real-time.</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-top-0">
+                            <span class="badge bg-primary">Computer Vision</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 project-card">
+                        <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Aplikasi Toko Sepatu">
+                        <div class="card-body">
+                            <h5 class="card-title">Web App Toko Sepatu</h5>
+                            <p class="card-text">Pengembangan aplikasi web e-commerce untuk toko sepatu modern yang interaktif dan responsif.</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-top-0">
+                            <span class="badge bg-primary">Next.js</span>
+                            <span class="badge bg-primary">Node.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 project-card">
+                        <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Clean! Capt. Deden">
+                        <div class="card-body">
+                            <h5 class="card-title">Clean! Capt. Deden</h5>
+                            <p class="card-text">Sebuah game interaktif yang dikembangkan di platform Roblox.</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-top-0">
+                            <span class="badge bg-primary">Roblox Studio</span>
+                            <span class="badge bg-primary">Game Dev</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5 text-center text-white bg-dark">
+        <div class="container">
+            <h2 class="mb-4">Mari Berkolaborasi</h2>
+            <p class="lead mb-4">Tertarik dengan proyek Information Retrieval atau ingin berdiskusi soal web development? Jangan ragu untuk menghubungi saya.</p>
+            <a href="mailto:emailkamu@example.com" class="btn btn-outline-light btn-lg me-2">
+                <i class="bi bi-envelope"></i> Kirim Email
+            </a>
+            <a href="#" class="btn btn-outline-light btn-lg">
+                <i class="bi bi-github"></i> GitHub
+            </a>
+        </div>
+    </section>
+
+    <footer class="text-center py-4 bg-dark text-white border-top border-secondary">
+        <div class="container">
+            <p class="mb-0">&copy; 2026 Yusup Kurniawan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 
